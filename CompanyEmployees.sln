@@ -3,22 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees", "src\CompanyEmployees\CompanyEmployees.csproj", "{0746762C-124D-490D-9FF4-BD4B8F78E704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployees", "src\CompanyEmployees\CompanyEmployees.csproj", "{0746762C-124D-490D-9FF4-BD4B8F78E704}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02876841-E83F-42AF-8027-C8B099756C20}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareExample", "src\MiddlewareExample\MiddlewareExample.csproj", "{31737275-4358-4775-AE65-CB29F4E7CAF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareExample", "src\MiddlewareExample\MiddlewareExample.csproj", "{31737275-4358-4775-AE65-CB29F4E7CAF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{8D93DD8F-141F-4598-8F9E-63A1E0DA138F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{46DAF496-A889-4D72-8234-75337CB97C1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "src\Contracts\Contracts.csproj", "{46DAF496-A889-4D72-8234-75337CB97C1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "src\LoggerService\LoggerService.csproj", "{026DC480-79D1-4A13-B9FD-19697C6AA631}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "src\LoggerService\LoggerService.csproj", "{026DC480-79D1-4A13-B9FD-19697C6AA631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "src\Entities\Entities.csproj", "{7126CD18-CD31-4111-9D9E-4F32F3BE6263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "src\Entities\Entities.csproj", "{7126CD18-CD31-4111-9D9E-4F32F3BE6263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "src\Repository\Repository.csproj", "{FE782585-B260-4ADF-9000-1D76B719B3E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,10 @@ Global
 		{7126CD18-CD31-4111-9D9E-4F32F3BE6263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7126CD18-CD31-4111-9D9E-4F32F3BE6263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7126CD18-CD31-4111-9D9E-4F32F3BE6263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE782585-B260-4ADF-9000-1D76B719B3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE782585-B260-4ADF-9000-1D76B719B3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE782585-B260-4ADF-9000-1D76B719B3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE782585-B260-4ADF-9000-1D76B719B3E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
