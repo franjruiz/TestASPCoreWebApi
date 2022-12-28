@@ -14,15 +14,11 @@ namespace MiddlewareExample.Controllers
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
         /// <summary>
         /// Constructor
         /// </summary>
-        /// <param name="logger"></param>
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController()
         {
-            _logger = logger;
         }
 
         /// <summary>

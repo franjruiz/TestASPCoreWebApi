@@ -1,4 +1,6 @@
-﻿namespace CompanyEmployees.Extensions;
+﻿using LoggerService;
+
+namespace CompanyEmployees.Extensions;
 
 /// <summary>
 /// Service Extensions.
@@ -26,4 +28,11 @@ public static class ServiceExtensions
         services.Configure<IISOptions>(options =>
         {
         });
+
+    /// <summary>
+    /// Configure logger service.
+    /// </summary>
+    /// <param name="services"></param>
+    public static void ConfigureLoggerService(this IServiceCollection services) =>
+        services.AddSingleton<ILoggerManager, LoggerManager>();
 }
